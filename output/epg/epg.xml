@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20250617153431 +0800">
+<tv date="20250617165731 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -24192,10 +24192,4 @@
 	<programme channel="龙岩综合" start="20250617231500 +0800" stop="20250617235900 +0800">
 		<title lang="zh">午夜影剧院</title>
 	</programme>
-	<channel id="IPTV经典电影">
-		<display-name lang="zh">IPTV经典电影</display-name>
-	</channel>
-	<channel id="新动漫">
-		<display-name lang="zh">新动漫</display-name>
-	</channel>
 </tv>
