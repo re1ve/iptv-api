@@ -5,53 +5,6 @@
 
 <div align="center">一个可高度自定义的IPTV接口更新项目📺，自定义频道菜单，自动获取直播源，测速验效后生成可用的结果，可实现『✨秒播级体验🚀』</div>
 <br>
-<p align="center">
-  <a href="https://github.com/Guovin/iptv-api/releases/latest">
-    <img src="https://img.shields.io/github/v/release/guovin/iptv-api" />
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/python-%20%3D%203.13-47c219" />
-  </a>
-  <a href="https://github.com/Guovin/iptv-api/releases/latest">
-    <img src="https://img.shields.io/github/downloads/guovin/iptv-api/total" />
-  </a>
-  <a href="https://hub.docker.com/repository/docker/guovern/iptv-api">
-    <img src="https://img.shields.io/docker/pulls/guovern/iptv-api" />
-  </a>
-  <a href="https://github.com/Guovin/iptv-api/fork">
-    <img src="https://img.shields.io/github/forks/guovin/iptv-api" />
-  </a>
-</p>
-
-[English](./README_en.md) | 中文
-
-🎉💻 [IPTV-Web](https://github.com/Guovin/iptv-web)：IPTV电视直播源管理平台，支持在线播放等功能，开发中...
-
-💖 [频道别名收集计划](https://github.com/Guovin/iptv-api/discussions/1082)
-
-- [✅ 特点](#特点)
-- [🔗 最新结果](#最新结果)
-- [⚙️ 配置参数](#配置)
-- [🚀 快速上手](#快速上手)
-    - [工作流](#工作流)
-    - [命令行](#命令行)
-    - [GUI软件](#GUI-软件)
-    - [Docker](#Docker)
-- [📖 详细教程](./docs/tutorial.md)
-- [🗓️ 更新日志](./CHANGELOG.md)
-- [❤️ 赞赏](#赞赏)
-- [👀 关注公众号](#关注)
-- [⭐️ Star统计](#Star统计)
-- [📣 免责声明](#免责声明)
-- [⚖️ 许可证](#许可证)
-
-> [!IMPORTANT]
-> 1. 默认数据源，如订阅源，来源于Github开源项目，仅供示例作用，可能出现稳定性问题
-> 2. 本项目不提供对接口结果稳定性的保证与解释
-> 3. 若要实现最佳的稳定性，建议自行维护数据源
-
-<details>
-  <summary>默认数据源</summary>
 
 📍订阅源来自：
 
@@ -82,35 +35,25 @@
 - ✅ 支持多种运行方式：工作流、命令行、GUI 软件、Docker(amd64/arm64/arm v7)
 - ✨ 更多功能请见[配置参数](#配置)
 
-## 最新结果
-
-> [!IMPORTANT]\
-> 以下地址国内可能无法稳定访问，推荐在前拼接代理地址使用，公众号可回复`cdn`获取
 
 ### 直播源
 
 - 默认
 
 ```bash
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
+http://gh-proxy.net/https://raw.githubusercontent.com/re1ve/iptv-api/output/result.m3u
 ```
 
 - IPv6
 
 ```bash
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
+http://gh-proxy.net/https://raw.githubusercontent.com/re1ve/iptv-api/output/ipv6/result.m3u
 ```
 
 - IPv4
 
 ```bash
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
-```
-
-### 点播源
-
-```bash
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
+https://gh-proxy.net/https://raw.githubusercontent.com/re1ve/iptv-api/output/ipv4/result.m3u
 ```
 
 ## 配置
@@ -184,141 +127,6 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 ### 工作流
 
 Fork 本项目并开启工作流更新，具体步骤请见[详细教程](./docs/tutorial.md)
-
-### 命令行
-
-```shell
-pip install pipenv
-```
-
-```shell
-pipenv install --dev
-```
-
-启动更新：
-
-```shell
-pipenv run dev
-```
-
-启动服务：
-
-```shell
-pipenv run service
-```
-
-### GUI 软件
-
-1. 下载[IPTV-API 更新软件](https://github.com/Guovin/iptv-api/releases)，打开软件，点击启动，即可进行更新
-
-2. 或者在项目目录下运行以下命令，即可打开 GUI 软件：
-
-```shell
-pipenv run ui
-```
-
-<img src="./docs/images/ui.png" alt="IPTV-API更新软件" title="IPTV-API更新软件" style="height:600px" />
-
-### Docker
-
-#### 1. 拉取镜像
-
-```bash
-docker pull guovern/iptv-api:latest
-```
-
-🚀 代理加速（推荐国内用户使用）：
-
-```bash
-docker pull docker.1ms.run/guovern/iptv-api:latest
-```
-
-#### 2. 运行容器
-
-```bash
-docker run -d -p 8000:8000 guovern/iptv-api
-```
-
-##### 挂载（推荐）：
-
-实现宿主机文件与容器文件同步，修改模板、配置、获取更新结果文件可直接在宿主机文件夹下操作
-
-以宿主机路径/etc/docker 为例：
-
-```bash
--v /etc/docker/config:/iptv-api/config
--v /etc/docker/output:/iptv-api/output
-```
-
-##### 环境变量：
-
-| 变量       | 描述                 | 默认值                |
-|:---------|:-------------------|:-------------------|
-| APP_HOST | 服务host地址，可修改使用公网域名 | "http://localhost" |
-| APP_PORT | 服务端口               | 8000               |
-
-#### 3. 更新结果
-
-| 接口        | 描述         |
-|:----------|:-----------|
-| /         | 默认接口       |
-| /m3u      | m3u 格式接口   |
-| /txt      | txt 格式接口   |
-| /ipv4     | ipv4 默认接口  |
-| /ipv6     | ipv6 默认接口  |
-| /ipv4/txt | ipv4 txt接口 |
-| /ipv6/txt | ipv6 txt接口 |
-| /ipv4/m3u | ipv4 m3u接口 |
-| /ipv6/m3u | ipv6 m3u接口 |
-| /content  | 接口文本内容     |
-| /log      | 测速日志       |
-
-- RTMP 推流：
-
-> [!NOTE]
-> 1. 如果需要对本地视频源进行推流，可在`config`目录下新建`live`或`hls`（推荐）文件夹
-> 2. live文件夹用于推流live接口，hls文件夹用于推流hls接口
-> 3. 将以`频道名称命名`的视频文件放入其中，程序会自动推流到对应的频道中
-> 4. 可访问 http://localhost:8080/stat 查看实时推流状态统计数据
-
-| 推流接口           | 描述                |
-|:---------------|:------------------|
-| /live          | 推流live接口          |
-| /hls           | 推流hls接口           |
-| /live/txt      | 推流live txt接口      |
-| /hls/txt       | 推流hls txt接口       |
-| /live/m3u      | 推流live m3u接口      |
-| /hls/m3u       | 推流hls m3u接口       |
-| /live/ipv4/txt | 推流live ipv4 txt接口 |
-| /hls/ipv4/txt  | 推流hls ipv4 txt接口  |
-| /live/ipv4/m3u | 推流live ipv4 m3u接口 |
-| /hls/ipv4/m3u  | 推流hls ipv4 m3u接口  |
-| /live/ipv6/txt | 推流live ipv6 txt接口 |
-| /hls/ipv6/txt  | 推流hls ipv6 txt接口  |
-| /live/ipv6/m3u | 推流live ipv6 m3u接口 |
-| /hls/ipv6/m3u  | 推流hls ipv6 m3u接口  |
-
-## 更新日志
-
-[更新日志](./CHANGELOG.md)
-
-## 赞赏
-
-<div>开发维护不易，请我喝杯咖啡☕️吧~</div>
-
-| 支付宝                                  | 微信                                      |
-|--------------------------------------|-----------------------------------------|
-| ![支付宝扫码](./static/images/alipay.jpg) | ![微信扫码](./static/images/appreciate.jpg) |
-
-## 关注
-
-微信公众号搜索 Govin，或扫码，接收更新推送、学习更多使用技巧：
-
-![微信公众号](./static/images/qrcode.jpg)
-
-## Star统计
-
-[![Star统计](https://api.star-history.com/svg?repos=Guovin/iptv-api&type=Date)](https://star-history.com/#Guovin/iptv-api&Date)
 
 ## 免责声明
 
