@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-06-25 06:15:17,url
+2025-06-25 18:18:15,https://tencentplaygzrb01.gztv.com/live/jingsai.m3u8
 
 💰央视付费频道,#genre#
 
@@ -10,6 +10,7 @@
 🎬电影频道,#genre#
 
 🏀体育频道,#genre#
+广州竞赛,https://tencentplaygzrb01.gztv.com/live/jingsai.m3u8
 
 🪁动画频道,#genre#
 
