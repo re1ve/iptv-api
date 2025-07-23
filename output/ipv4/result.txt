@@ -1,11 +1,12 @@
 🕘️更新时间,#genre#
-2025-07-23 06:15:59,url
+2025-07-23 18:18:16,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 
 💰央视付费频道,#genre#
 
 📡卫视频道,#genre#
 
 ⚡️福建频道,#genre#
+晋江电视台,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 
 🎬电影频道,#genre#
 
