@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://gh-proxy.net/https://raw.githubusercontent.com/re1ve/iptv-api/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="🕘️更新时间",2025-08-03 06:17:10
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="🕘️更新时间",2025-08-03 18:16:47
 http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 #EXTINF:-1 tvg-name="晋江电视台" tvg-logo="https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/main/tv/晋江电视台.png" group-title="⚡️福建频道",晋江电视台
 http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
