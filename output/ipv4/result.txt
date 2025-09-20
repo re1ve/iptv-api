@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-09-20 18:16:20,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
+2025-09-21 06:14:44,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 
 💰央视付费频道,#genre#
 
@@ -8,8 +8,6 @@
 ⚡️福建频道,#genre#
 晋江电视台,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 福建旅游,http://110.80.17.38:9999/tsfile/live/0138_1.m3u8
-
-🌊港·澳·台,#genre#
 
 🎬电影频道,#genre#
 
