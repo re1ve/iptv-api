@@ -1,6 +1,2 @@
-Name: CCTV-6, URL: http://120.40.39.246:352/newlive/live/hls/7/live.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 10728 ms, Speed: 0.19 M/s, Resolution: None
-Name: CCTV-7, URL: http://120.40.39.246:352/newlive/live/hls/8/live.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 10719 ms, Speed: 0.06 M/s, Resolution: 1920x1080
-Name: CCTV-8, URL: http://120.40.39.246:352/newlive/live/hls/9/live.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 10687 ms, Speed: 0.05 M/s, Resolution: None
-Name: CCTV-9, URL: http://120.40.39.246:352/newlive/live/hls/10/live.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 10712 ms, Speed: 0.04 M/s, Resolution: 1920x1080
-Name: 晋江电视台, URL: http://stream.jinjiang.tv/1/sd/live.m3u8?zfud, IPv_Type: ipv4, Location: 中国-福建-泉州, ISP: 电信, Date: None, Delay: 5550 ms, Speed: 0.35 M/s, Resolution: 1280x720
-Name: 福建旅游, URL: http://110.80.17.38:9999/tsfile/live/0138_1.m3u8, IPv_Type: ipv4, Location: 中国-福建-厦门, ISP: 电信, Date: None, Delay: 10201 ms, Speed: 0.01 M/s, Resolution: 1920x1080
+Name: 晋江电视台, URL: http://stream.jinjiang.tv/1/sd/live.m3u8?zfud, IPv_Type: ipv4, Location: 中国-福建-泉州, ISP: 电信, Date: None, Delay: 5181 ms, Speed: 0.36 M/s, Resolution: 1280x720
+Name: 福建旅游, URL: http://110.80.17.38:9999/tsfile/live/0138_1.m3u8, IPv_Type: ipv4, Location: 中国-福建-厦门, ISP: 电信, Date: None, Delay: 10295 ms, Speed: 0.02 M/s, Resolution: 1920x1080
