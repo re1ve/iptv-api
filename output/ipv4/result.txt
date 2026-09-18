@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-09-18 22:02:56,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+2026-09-19 07:49:32,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 
 📺央视频道,#genre#
 
@@ -11,6 +11,7 @@
 ⚡️福建频道,#genre#
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 福州生活,http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
+福建旅游,http://110.80.17.38:9999/tsfile/live/0138_1.m3u8
 
 🎬电影频道,#genre#
 
