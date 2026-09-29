@@ -1,4 +1,4 @@
-Name: 东南卫视, URL: http://live.zohi.tv/video/s10001-fztv-3/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 2461 ms, Speed: 2.03 M/s, Resolution: 1920x1080
-Name: 晋江电视台, URL: http://stream.jinjiang.tv/1/sd/live.m3u8?zfud, IPv_Type: ipv4, Location: 中国-福建-泉州, ISP: 电信, Date: None, Delay: 3023 ms, Speed: 0.44 M/s, Resolution: 1280x720
-Name: 福州少儿, URL: http://live.zohi.tv/video/s10001-fztv-4/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 1077 ms, Speed: 0.32 M/s, Resolution: 1920x1080
-Name: 福州生活, URL: http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 2319 ms, Speed: 2.07 M/s, Resolution: 1920x1080
+Name: 东南卫视, URL: http://live.zohi.tv/video/s10001-fztv-3/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 1492 ms, Speed: 0.22 M/s, Resolution: 1920x1080
+Name: 晋江电视台, URL: http://stream.jinjiang.tv/1/sd/live.m3u8?zfud, IPv_Type: ipv4, Location: 中国-福建-泉州, ISP: 电信, Date: None, Delay: 5276 ms, Speed: 0.32 M/s, Resolution: 1280x720
+Name: 福州少儿, URL: http://live.zohi.tv/video/s10001-fztv-4/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 3023 ms, Speed: 0.18 M/s, Resolution: 1920x1080
+Name: 福州生活, URL: http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 1453 ms, Speed: 0.23 M/s, Resolution: 1920x1080
