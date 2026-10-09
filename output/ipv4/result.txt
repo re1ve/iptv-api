@@ -1,12 +1,11 @@
 🕘️更新时间,#genre#
-2026-10-09 01:08:31,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+2026-10-09 09:39:02,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 
 📺央视频道,#genre#
 
 💰央视付费频道,#genre#
 
 📡卫视频道,#genre#
-东南卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 
 ⚡️福建频道,#genre#
 晋江电视台,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
