@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-10-22 08:21:56,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
+2026-10-22 22:50:00,http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 
 📺央视频道,#genre#
 
