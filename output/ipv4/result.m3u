@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://gh-proxy.net/https://raw.githubusercontent.com/re1ve/iptv-api/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="🕘️更新时间",2026-11-22 09:52:07
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="🕘️更新时间",2026-11-23 01:34:03
 http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 #EXTINF:-1 tvg-name="晋江电视台" tvg-logo="https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/main/tv/晋江电视台.png" group-title="⚡️福建频道",晋江电视台
 http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
@@ -7,3 +7,5 @@ http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 #EXTINF:-1 tvg-name="福州生活" tvg-logo="https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/main/tv/福州生活.png" group-title="⚡️福建频道",福州生活
 http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
+#EXTINF:-1 tvg-name="龙岩新闻综合" tvg-logo="https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/main/tv/龙岩新闻综合.png" group-title="⚡️福建频道",龙岩新闻综合
+http://stream.lytv.net.cn/2/sd/live.m3u8$山东酒店源-cache:http://47.104.102.192/ZHGXTV/Public/json/live_interface.txt

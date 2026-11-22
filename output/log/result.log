@@ -1,3 +1,4 @@
-Name: 晋江电视台, URL: http://stream.jinjiang.tv/1/sd/live.m3u8?zfud, IPv_Type: ipv4, Location: 中国-福建-泉州, ISP: 电信, Date: None, Delay: 3624 ms, Speed: 0.44 M/s, Resolution: 1280x720
-Name: 福州少儿, URL: http://live.zohi.tv/video/s10001-fztv-4/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 1620 ms, Speed: 0.24 M/s, Resolution: 1920x1080
-Name: 福州生活, URL: http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 2426 ms, Speed: 1.93 M/s, Resolution: 1920x1080
+Name: 晋江电视台, URL: http://stream.jinjiang.tv/1/sd/live.m3u8?zfud, IPv_Type: ipv4, Location: 中国-福建-泉州, ISP: 电信, Date: None, Delay: 6324 ms, Speed: 0.38 M/s, Resolution: 1280x720
+Name: 福州少儿, URL: http://live.zohi.tv/video/s10001-fztv-4/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 1155 ms, Speed: 0.29 M/s, Resolution: 1920x1080
+Name: 福州生活, URL: http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8, IPv_Type: ipv4, Location: 中国-福建-福州, ISP: 电信, Date: None, Delay: 1143 ms, Speed: 0.29 M/s, Resolution: 1920x1080
+Name: 龙岩新闻综合, URL: http://stream.lytv.net.cn/2/sd/live.m3u8$山东酒店源-cache:http://47.104.102.192/ZHGXTV/Public/json/live_interface.txt, IPv_Type: ipv4, Location: None, ISP: None, Date: None, Delay: 195 ms, Speed: 0.01 M/s, Resolution: None
